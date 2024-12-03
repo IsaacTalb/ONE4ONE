@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Build and output
+.next/
+.out/
+.build/
+
+# Environment files
+*.env
+.env.*
