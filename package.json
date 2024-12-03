@@ -1,0 +1,13 @@
+{
+    "name": "one4one",
+    "private": true,
+    "scripts": {
+      "dev": "concurrently \"npm run dev --prefix client\" \"npm run start --prefix server\"",
+      "start": "node server/app.js",
+      "install": "npm install --prefix client && npm install --prefix server"
+    },
+    "dependencies": {
+      "concurrently": "^7.0.0"
+    }
+  }
+  
